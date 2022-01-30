@@ -5,20 +5,47 @@ body{
     margin: 0;
     justify-content: center;
     align-items: center;
+    background: url("/assets/gg.jpg");
+    background-size: cover;
 
 }
 .beatbox{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 29%;
-
+    align-content: space-evenly;
+    justify-content: center;
+    border-radius: 20px;
 }
 .beat{
     width: 120px;
     height: 120px;
+    flex-basis: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    
+}
+.button{
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 5px solid aqua;
+}
+#f,#g,#h,#j{
+    border-color: #FF00FF;
+}
+#a,#s,#d{
+    border-color: #00fffe;
+}
+#k,#l{
+    border-color: #FFFFFF;
 }
